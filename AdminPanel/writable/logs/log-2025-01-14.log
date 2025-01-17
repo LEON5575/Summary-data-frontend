@@ -1,0 +1,647 @@
+INFO - 2025-01-14 05:30:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 05:30:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 05:31:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 05:31:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 05:31:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 05:34:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 05:34:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 05:48:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 05:50:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 05:51:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 05:51:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 05:57:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 06:00:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 06:04:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 06:04:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 06:10:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 06:10:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 06:10:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 06:11:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-14 06:11:58 --> ErrorException: Undefined array key "ringing time"
+[Method: GET, Route: spreadsheet]
+in APPPATH\Controllers\Report.php on line 93.
+ 1 APPPATH\Controllers\Report.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "ringing time"', 'C:\\xampp\\htdocs\\App\\AdminPanel\\app\\Controllers\\Report.php', 93)
+ 2 APPPATH\Controllers\Report.php(43): App\Controllers\Report->setSpreadsheetRow(Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet), 2, [...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Report->spreadsheet()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-14 06:12:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 06:19:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 06:19:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 06:22:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 06:23:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-14 06:23:52 --> ErrorException: Undefined array key "duration"
+[Method: GET, Route: spreadsheet_1]
+in APPPATH\Controllers\Report.php on line 125.
+ 1 APPPATH\Controllers\Report.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "duration"', 'C:\\xampp\\htdocs\\App\\AdminPanel\\app\\Controllers\\Report.php', 125)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Report->summaryReport()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-14 06:26:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-14 06:26:41 --> ErrorException: Undefined array key "duration"
+[Method: GET, Route: spreadsheet_1]
+in APPPATH\Controllers\Report.php on line 125.
+ 1 APPPATH\Controllers\Report.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "duration"', 'C:\\xampp\\htdocs\\App\\AdminPanel\\app\\Controllers\\Report.php', 125)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Report->summaryReport()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-14 06:28:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 06:28:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 06:39:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 06:39:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 06:40:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 06:41:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 06:42:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-14 06:45:27 --> ErrorException: Array to string conversion
+[Method: GET, Route: report_sql]
+in APPPATH\Controllers\Report.php on line 13.
+ 1 APPPATH\Controllers\Report.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\App\\AdminPanel\\app\\Controllers\\Report.php', 13)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Report->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-14 06:47:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-14 06:47:05 --> ErrorException: Undefined variable $reportUsers
+[Method: GET, Route: report_sql]
+in APPPATH\Views\report_sql.php on line 55.
+ 1 APPPATH\Views\report_sql.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $reportUsers', 'C:\\xampp\\htdocs\\App\\AdminPanel\\app\\Views\\report_sql.php', 55)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\App\\AdminPanel\\app\\Views\\report_sql.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('report_sql', [], true)
+ 5 APPPATH\Controllers\Report.php(28): view('report_sql', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Report->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-14 06:47:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 06:47:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-14 06:47:09 --> ErrorException: Undefined variable $reportUsers
+[Method: GET, Route: report_sql]
+in APPPATH\Views\report_sql.php on line 55.
+ 1 APPPATH\Views\report_sql.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $reportUsers', 'C:\\xampp\\htdocs\\App\\AdminPanel\\app\\Views\\report_sql.php', 55)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\App\\AdminPanel\\app\\Views\\report_sql.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('report_sql', [], true)
+ 5 APPPATH\Controllers\Report.php(28): view('report_sql', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Report->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-14 06:48:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-14 06:48:13 --> ErrorException: Undefined variable $reportUsers
+[Method: GET, Route: report_sql]
+in APPPATH\Views\report_sql.php on line 55.
+ 1 APPPATH\Views\report_sql.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $reportUsers', 'C:\\xampp\\htdocs\\App\\AdminPanel\\app\\Views\\report_sql.php', 55)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\App\\AdminPanel\\app\\Views\\report_sql.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('report_sql', [], true)
+ 5 APPPATH\Controllers\Report.php(28): view('report_sql', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Report->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Report))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-14 06:48:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 06:48:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 06:48:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 06:49:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 06:49:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 06:49:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 06:49:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 06:49:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 06:51:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 06:51:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 06:51:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 06:51:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 06:51:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 06:52:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 06:52:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 06:52:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 06:52:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 06:53:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 06:53:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 06:53:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 06:53:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 06:53:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 06:53:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 06:53:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 07:00:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 07:00:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 07:00:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 07:01:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 07:01:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 07:01:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 07:01:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 07:21:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 07:22:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 07:22:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 07:23:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 07:26:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 07:26:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 07:26:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 07:26:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 07:26:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 07:40:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 07:45:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 09:43:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 09:46:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 09:46:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 09:46:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 09:46:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 09:46:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 09:53:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 09:53:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 09:56:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 10:30:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 10:30:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 10:30:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 10:40:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 11:19:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 14:15:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-14 14:15:01 --> ErrorException: Trying to access array offset on value of type int
+[Method: GET, Route: report_elastic]
+in APPPATH\Views\report_elastic.php on line 54.
+ 1 APPPATH\Views\report_elastic.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\xampp\\htdocs\\App\\AdminPanel\\app\\Views\\report_elastic.php', 54)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\App\\AdminPanel\\app\\Views\\report_elastic.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('report_elastic', [], true)
+ 5 APPPATH\Controllers\Elastic.php(28): view('report_elastic', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Elastic->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Elastic))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-14 14:16:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-14 14:16:05 --> ErrorException: Trying to access array offset on value of type int
+[Method: GET, Route: report_elastic]
+in APPPATH\Views\report_elastic.php on line 54.
+ 1 APPPATH\Views\report_elastic.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type int', 'C:\\xampp\\htdocs\\App\\AdminPanel\\app\\Views\\report_elastic.php', 54)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\App\\AdminPanel\\app\\Views\\report_elastic.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('report_elastic', [], true)
+ 5 APPPATH\Controllers\Elastic.php(28): view('report_elastic', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Elastic->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Elastic))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-14 14:17:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-14 14:17:55 --> ErrorException: Undefined array key "datetime"
+[Method: GET, Route: report_elastic]
+in APPPATH\Views\report_elastic.php on line 54.
+ 1 APPPATH\Views\report_elastic.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "datetime"', 'C:\\xampp\\htdocs\\App\\AdminPanel\\app\\Views\\report_elastic.php', 54)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\App\\AdminPanel\\app\\Views\\report_elastic.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('report_elastic', [], true)
+ 5 APPPATH\Controllers\Elastic.php(28): view('report_elastic', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Elastic->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Elastic))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-14 14:17:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-14 14:17:56 --> ErrorException: Undefined array key "datetime"
+[Method: GET, Route: report_elastic]
+in APPPATH\Views\report_elastic.php on line 54.
+ 1 APPPATH\Views\report_elastic.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "datetime"', 'C:\\xampp\\htdocs\\App\\AdminPanel\\app\\Views\\report_elastic.php', 54)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\App\\AdminPanel\\app\\Views\\report_elastic.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('report_elastic', [], true)
+ 5 APPPATH\Controllers\Elastic.php(28): view('report_elastic', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Elastic->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Elastic))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-14 14:17:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-14 14:17:57 --> ErrorException: Undefined array key "datetime"
+[Method: GET, Route: report_elastic]
+in APPPATH\Views\report_elastic.php on line 54.
+ 1 APPPATH\Views\report_elastic.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "datetime"', 'C:\\xampp\\htdocs\\App\\AdminPanel\\app\\Views\\report_elastic.php', 54)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\App\\AdminPanel\\app\\Views\\report_elastic.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('report_elastic', [], true)
+ 5 APPPATH\Controllers\Elastic.php(28): view('report_elastic', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Elastic->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Elastic))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-14 14:17:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-14 14:17:58 --> ErrorException: Undefined array key "datetime"
+[Method: GET, Route: report_elastic]
+in APPPATH\Views\report_elastic.php on line 54.
+ 1 APPPATH\Views\report_elastic.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "datetime"', 'C:\\xampp\\htdocs\\App\\AdminPanel\\app\\Views\\report_elastic.php', 54)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\App\\AdminPanel\\app\\Views\\report_elastic.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('report_elastic', [], true)
+ 5 APPPATH\Controllers\Elastic.php(28): view('report_elastic', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Elastic->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Elastic))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-14 14:17:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-14 14:17:58 --> ErrorException: Undefined array key "datetime"
+[Method: GET, Route: report_elastic]
+in APPPATH\Views\report_elastic.php on line 54.
+ 1 APPPATH\Views\report_elastic.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "datetime"', 'C:\\xampp\\htdocs\\App\\AdminPanel\\app\\Views\\report_elastic.php', 54)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\App\\AdminPanel\\app\\Views\\report_elastic.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('report_elastic', [], true)
+ 5 APPPATH\Controllers\Elastic.php(28): view('report_elastic', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Elastic->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Elastic))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-14 14:17:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-14 14:17:58 --> ErrorException: Undefined array key "datetime"
+[Method: GET, Route: report_elastic]
+in APPPATH\Views\report_elastic.php on line 54.
+ 1 APPPATH\Views\report_elastic.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "datetime"', 'C:\\xampp\\htdocs\\App\\AdminPanel\\app\\Views\\report_elastic.php', 54)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\App\\AdminPanel\\app\\Views\\report_elastic.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('report_elastic', [], true)
+ 5 APPPATH\Controllers\Elastic.php(28): view('report_elastic', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Elastic->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Elastic))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-14 14:17:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-14 14:17:59 --> ErrorException: Undefined array key "datetime"
+[Method: GET, Route: report_elastic]
+in APPPATH\Views\report_elastic.php on line 54.
+ 1 APPPATH\Views\report_elastic.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "datetime"', 'C:\\xampp\\htdocs\\App\\AdminPanel\\app\\Views\\report_elastic.php', 54)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\App\\AdminPanel\\app\\Views\\report_elastic.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('report_elastic', [], true)
+ 5 APPPATH\Controllers\Elastic.php(28): view('report_elastic', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Elastic->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Elastic))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-14 14:17:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-14 14:17:59 --> ErrorException: Undefined array key "datetime"
+[Method: GET, Route: report_elastic]
+in APPPATH\Views\report_elastic.php on line 54.
+ 1 APPPATH\Views\report_elastic.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "datetime"', 'C:\\xampp\\htdocs\\App\\AdminPanel\\app\\Views\\report_elastic.php', 54)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\App\\AdminPanel\\app\\Views\\report_elastic.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('report_elastic', [], true)
+ 5 APPPATH\Controllers\Elastic.php(28): view('report_elastic', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Elastic->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Elastic))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-14 14:19:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-14 14:19:31 --> ErrorException: Undefined array key "datetime"
+[Method: GET, Route: report_elastic]
+in APPPATH\Views\report_elastic.php on line 54.
+ 1 APPPATH\Views\report_elastic.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "datetime"', 'C:\\xampp\\htdocs\\App\\AdminPanel\\app\\Views\\report_elastic.php', 54)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\App\\AdminPanel\\app\\Views\\report_elastic.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('report_elastic', [], true)
+ 5 APPPATH\Controllers\Elastic.php(28): view('report_elastic', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Elastic->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Elastic))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-14 14:19:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-14 14:19:32 --> ErrorException: Undefined array key "datetime"
+[Method: GET, Route: report_elastic]
+in APPPATH\Views\report_elastic.php on line 54.
+ 1 APPPATH\Views\report_elastic.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "datetime"', 'C:\\xampp\\htdocs\\App\\AdminPanel\\app\\Views\\report_elastic.php', 54)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\App\\AdminPanel\\app\\Views\\report_elastic.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('report_elastic', [], true)
+ 5 APPPATH\Controllers\Elastic.php(28): view('report_elastic', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Elastic->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Elastic))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-14 14:19:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-14 14:19:32 --> ErrorException: Undefined array key "datetime"
+[Method: GET, Route: report_elastic]
+in APPPATH\Views\report_elastic.php on line 54.
+ 1 APPPATH\Views\report_elastic.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "datetime"', 'C:\\xampp\\htdocs\\App\\AdminPanel\\app\\Views\\report_elastic.php', 54)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\App\\AdminPanel\\app\\Views\\report_elastic.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('report_elastic', [], true)
+ 5 APPPATH\Controllers\Elastic.php(28): view('report_elastic', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Elastic->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Elastic))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-14 14:19:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-14 14:19:33 --> ErrorException: Undefined array key "datetime"
+[Method: GET, Route: report_elastic]
+in APPPATH\Views\report_elastic.php on line 54.
+ 1 APPPATH\Views\report_elastic.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "datetime"', 'C:\\xampp\\htdocs\\App\\AdminPanel\\app\\Views\\report_elastic.php', 54)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\App\\AdminPanel\\app\\Views\\report_elastic.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('report_elastic', [], true)
+ 5 APPPATH\Controllers\Elastic.php(28): view('report_elastic', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Elastic->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Elastic))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-14 14:19:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-14 14:19:33 --> ErrorException: Undefined array key "datetime"
+[Method: GET, Route: report_elastic]
+in APPPATH\Views\report_elastic.php on line 54.
+ 1 APPPATH\Views\report_elastic.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "datetime"', 'C:\\xampp\\htdocs\\App\\AdminPanel\\app\\Views\\report_elastic.php', 54)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\App\\AdminPanel\\app\\Views\\report_elastic.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('report_elastic', [], true)
+ 5 APPPATH\Controllers\Elastic.php(28): view('report_elastic', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Elastic->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Elastic))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-14 14:19:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-14 14:19:33 --> ErrorException: Undefined array key "datetime"
+[Method: GET, Route: report_elastic]
+in APPPATH\Views\report_elastic.php on line 54.
+ 1 APPPATH\Views\report_elastic.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "datetime"', 'C:\\xampp\\htdocs\\App\\AdminPanel\\app\\Views\\report_elastic.php', 54)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\App\\AdminPanel\\app\\Views\\report_elastic.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('report_elastic', [], true)
+ 5 APPPATH\Controllers\Elastic.php(28): view('report_elastic', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Elastic->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Elastic))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-14 14:19:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-14 14:19:33 --> ErrorException: Undefined array key "datetime"
+[Method: GET, Route: report_elastic]
+in APPPATH\Views\report_elastic.php on line 54.
+ 1 APPPATH\Views\report_elastic.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "datetime"', 'C:\\xampp\\htdocs\\App\\AdminPanel\\app\\Views\\report_elastic.php', 54)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\App\\AdminPanel\\app\\Views\\report_elastic.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('report_elastic', [], true)
+ 5 APPPATH\Controllers\Elastic.php(28): view('report_elastic', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Elastic->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Elastic))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-14 14:21:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-14 14:21:10 --> ErrorException: Undefined array key "datetime"
+[Method: GET, Route: report_elastic]
+in APPPATH\Views\report_elastic.php on line 54.
+ 1 APPPATH\Views\report_elastic.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "datetime"', 'C:\\xampp\\htdocs\\App\\AdminPanel\\app\\Views\\report_elastic.php', 54)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\App\\AdminPanel\\app\\Views\\report_elastic.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('report_elastic', [], true)
+ 5 APPPATH\Controllers\Elastic.php(28): view('report_elastic', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Elastic->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Elastic))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-14 14:21:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-14 14:21:11 --> ErrorException: Undefined array key "datetime"
+[Method: GET, Route: report_elastic]
+in APPPATH\Views\report_elastic.php on line 54.
+ 1 APPPATH\Views\report_elastic.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "datetime"', 'C:\\xampp\\htdocs\\App\\AdminPanel\\app\\Views\\report_elastic.php', 54)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\App\\AdminPanel\\app\\Views\\report_elastic.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('report_elastic', [], true)
+ 5 APPPATH\Controllers\Elastic.php(28): view('report_elastic', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Elastic->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Elastic))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-14 14:21:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-14 14:21:11 --> ErrorException: Undefined array key "datetime"
+[Method: GET, Route: report_elastic]
+in APPPATH\Views\report_elastic.php on line 54.
+ 1 APPPATH\Views\report_elastic.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "datetime"', 'C:\\xampp\\htdocs\\App\\AdminPanel\\app\\Views\\report_elastic.php', 54)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\App\\AdminPanel\\app\\Views\\report_elastic.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('report_elastic', [], true)
+ 5 APPPATH\Controllers\Elastic.php(28): view('report_elastic', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Elastic->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Elastic))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-14 14:21:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-14 14:21:33 --> ErrorException: Undefined array key "datetime"
+[Method: GET, Route: report_elastic]
+in APPPATH\Views\report_elastic.php on line 54.
+ 1 APPPATH\Views\report_elastic.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "datetime"', 'C:\\xampp\\htdocs\\App\\AdminPanel\\app\\Views\\report_elastic.php', 54)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\App\\AdminPanel\\app\\Views\\report_elastic.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('report_elastic', [], true)
+ 5 APPPATH\Controllers\Elastic.php(28): view('report_elastic', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Elastic->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Elastic))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-14 14:22:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-14 14:22:27 --> ErrorException: Undefined array key "datetime"
+[Method: GET, Route: report_elastic]
+in APPPATH\Views\report_elastic.php on line 55.
+ 1 APPPATH\Views\report_elastic.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "datetime"', 'C:\\xampp\\htdocs\\App\\AdminPanel\\app\\Views\\report_elastic.php', 55)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\App\\AdminPanel\\app\\Views\\report_elastic.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('report_elastic', [], true)
+ 5 APPPATH\Controllers\Elastic.php(28): view('report_elastic', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Elastic->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Elastic))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-14 14:22:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-14 14:22:28 --> ErrorException: Undefined array key "datetime"
+[Method: GET, Route: report_elastic]
+in APPPATH\Views\report_elastic.php on line 55.
+ 1 APPPATH\Views\report_elastic.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "datetime"', 'C:\\xampp\\htdocs\\App\\AdminPanel\\app\\Views\\report_elastic.php', 55)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\App\\AdminPanel\\app\\Views\\report_elastic.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('report_elastic', [], true)
+ 5 APPPATH\Controllers\Elastic.php(28): view('report_elastic', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Elastic->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Elastic))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-14 14:22:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-14 14:22:28 --> ErrorException: Undefined array key "datetime"
+[Method: GET, Route: report_elastic]
+in APPPATH\Views\report_elastic.php on line 55.
+ 1 APPPATH\Views\report_elastic.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "datetime"', 'C:\\xampp\\htdocs\\App\\AdminPanel\\app\\Views\\report_elastic.php', 55)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\App\\AdminPanel\\app\\Views\\report_elastic.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('report_elastic', [], true)
+ 5 APPPATH\Controllers\Elastic.php(28): view('report_elastic', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Elastic->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Elastic))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-14 14:22:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-14 14:22:29 --> ErrorException: Undefined array key "datetime"
+[Method: GET, Route: report_elastic]
+in APPPATH\Views\report_elastic.php on line 55.
+ 1 APPPATH\Views\report_elastic.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "datetime"', 'C:\\xampp\\htdocs\\App\\AdminPanel\\app\\Views\\report_elastic.php', 55)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\App\\AdminPanel\\app\\Views\\report_elastic.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('report_elastic', [], true)
+ 5 APPPATH\Controllers\Elastic.php(28): view('report_elastic', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Elastic->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Elastic))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-14 14:22:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-14 14:22:29 --> ErrorException: Undefined array key "datetime"
+[Method: GET, Route: report_elastic]
+in APPPATH\Views\report_elastic.php on line 55.
+ 1 APPPATH\Views\report_elastic.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "datetime"', 'C:\\xampp\\htdocs\\App\\AdminPanel\\app\\Views\\report_elastic.php', 55)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\App\\AdminPanel\\app\\Views\\report_elastic.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('report_elastic', [], true)
+ 5 APPPATH\Controllers\Elastic.php(28): view('report_elastic', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Elastic->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Elastic))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-14 14:22:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-14 14:22:29 --> ErrorException: Undefined array key "datetime"
+[Method: GET, Route: report_elastic]
+in APPPATH\Views\report_elastic.php on line 55.
+ 1 APPPATH\Views\report_elastic.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "datetime"', 'C:\\xampp\\htdocs\\App\\AdminPanel\\app\\Views\\report_elastic.php', 55)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\App\\AdminPanel\\app\\Views\\report_elastic.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('report_elastic', [], true)
+ 5 APPPATH\Controllers\Elastic.php(28): view('report_elastic', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Elastic->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Elastic))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-14 14:29:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-14 14:29:33 --> ErrorException: Undefined array key "hour"
+[Method: GET, Route: spreadsheet_elastic_1]
+in APPPATH\Controllers\Elastic.php on line 138.
+ 1 APPPATH\Controllers\Elastic.php(138): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "hour"', 'C:\\xampp\\htdocs\\App\\AdminPanel\\app\\Controllers\\Elastic.php', 138)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Elastic->summaryReport()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Elastic))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-14 14:29:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-14 14:31:52 --> ParseError: syntax error, unexpected token "}"
+[Method: GET, Route: report_elastic]
+in APPPATH\Controllers\Elastic.php on line 103.
+ 1 FCPATH\vendor\composer\ClassLoader.php(427): Composer\Autoload\{closure}('C:\\xampp\\htdocs\\App\\AdminPanel\\vendor\\composer/../../app\\Controllers\\Elastic.php')
+ 2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\Elastic')
+ 3 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\Elastic', true)
+ 4 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-14 14:32:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-14 14:32:20 --> ErrorException: Undefined array key "hour"
+[Method: GET, Route: spreadsheet_elastic_1]
+in APPPATH\Controllers\Elastic.php on line 140.
+ 1 APPPATH\Controllers\Elastic.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "hour"', 'C:\\xampp\\htdocs\\App\\AdminPanel\\app\\Controllers\\Elastic.php', 140)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Elastic->summaryReport()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Elastic))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-14 14:32:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-14 14:32:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-14 14:32:53 --> ErrorException: Undefined array key "_source"
+[Method: GET, Route: spreadsheet_elastic_1]
+in APPPATH\Controllers\Elastic.php on line 140.
+ 1 APPPATH\Controllers\Elastic.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "_source"', 'C:\\xampp\\htdocs\\App\\AdminPanel\\app\\Controllers\\Elastic.php', 140)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Elastic->summaryReport()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Elastic))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-14 14:33:48 --> ErrorException: Undefined array key "_source"
+[Method: GET, Route: spreadsheet_elastic_1]
+in APPPATH\Controllers\Elastic.php on line 140.
+ 1 APPPATH\Controllers\Elastic.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "_source"', 'C:\\xampp\\htdocs\\App\\AdminPanel\\app\\Controllers\\Elastic.php', 140)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Elastic->summaryReport()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Elastic))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2025-01-14 14:33:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-14 14:33:54 --> ErrorException: Undefined array key "_source"
+[Method: GET, Route: spreadsheet_elastic_1]
+in APPPATH\Controllers\Elastic.php on line 140.
+ 1 APPPATH\Controllers\Elastic.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "_source"', 'C:\\xampp\\htdocs\\App\\AdminPanel\\app\\Controllers\\Elastic.php', 140)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Elastic->summaryReport()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Elastic))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
