@@ -10,23 +10,20 @@ class Mongo extends BaseController
     public function index()
     {
         $reportUsers = $this->mongoSummary();
-        if (empty($reportUsers)) {
-            $data['users'] = [];
-            $data['pager'] = null; 
-        } else {
-            $currentPage = $this->request->getVar('page') ? (int)$this->request->getVar('page') : 1;
-            $perPage = 5;
-            $total = count($reportUsers);
-            $offset = ($currentPage - 1) * $perPage;
-            $data['users'] = array_slice($reportUsers, $offset, $perPage);
-            $data['pager'] = [
-                'current' => $currentPage,
-                'total' => ceil($total / $perPage),
-            ];
-        }
-        echo view('inc/header');
-        echo view('report_mongo', $data); 
-        echo view('inc/footer');
+        $pager = \Config\Services::pager();
+        $page = $this->request->getVar('page') ? (int)$this->request->getVar('page') : 1;
+        $perPage = 5;
+        $total = count($reportUsers);
+ 
+        $pagedData = array_slice($reportUsers, ($page - 1) * $perPage, $perPage);
+        $data = [
+          'page' => "report_mongo",
+          'data' => $pagedData,
+          'pager' => $pager->makeLinks($page, $perPage, $total)
+        ];
+     echo view('inc/header');
+     echo view('report_mongo', $data);
+     echo view('inc/footer');
     }
 
     public function mongoSummary()
@@ -182,7 +179,6 @@ class Mongo extends BaseController
         echo view('summary_data_mongo', $data); 
         echo view('inc/footer');
     }
-
     public function mongoReport()
     {
         $ch = curl_init();
@@ -197,4 +193,47 @@ class Mongo extends BaseController
         curl_close($ch);
         return $data;
     }
+    //^filter
+public function filterMongo() {
+    //$filterPage = $this->mongoReport();
+    $campaignName = $this->request->getGet('campaign_name');
+    $agentName = $this->request->getGet('agent_name');
+    $callType = $this->request->getGet('call_type');
+    //$currentPage = $this->request->getGet('page') ? (int)$this->request->getGet('page') : 1;
+    $perPage = 4; 
+    $ch = curl_init();
+    $data = [];
+    !empty($agentName) ? $data['agentname'] = $agentName : null;
+    !empty($campaignName) ? $data['campaignname'] = $campaignName : null;
+    !empty($callType) ? $data['calltype'] = $callType : null;
+
+
+
+    // Set cURL options
+    curl_setopt($ch, CURLOPT_URL, "http://localhost:4000/mongo/filter");
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true); 
+    curl_setopt($ch, CURLOPT_POST, true);
+    curl_setopt($ch, CURLOPT_HTTPHEADER, [
+        'Content-Type: application/json',
+        'Accept: application/json'
+    ]);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($data)); 
+    $response = curl_exec($ch);
+    $response = json_decode($response, true);
+    $pager = \Config\Services::pager();
+       $page = $this->request->getVar('page') ? (int)$this->request->getVar('page') : 1;
+       $perPage = 5;
+       $total = count($response);
+
+       $pagedData = array_slice($response, ($page - 1) * $perPage, $perPage);
+       $data = [
+         'page' => "report_mongo",
+         'data' => $pagedData,
+         'pager' => $pager->makeLinks($page, $perPage, $total)
+       ];
+    echo view('inc/header');
+    echo view('report_mongo', $data);
+    echo view('inc/footer');
+}
+
 }

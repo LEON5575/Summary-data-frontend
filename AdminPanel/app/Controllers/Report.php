@@ -159,7 +159,18 @@ class Report extends BaseController
    //!filter 
    public function filter_report($campaignName, $agentName, $callType) {
     $ch = curl_init();
-    curl_setopt($ch, CURLOPT_URL, "http://localhost:4000/mysql/filter?campaignname=" . urlencode($campaignName) . "&agentname=" . urlencode($agentName) . "&calltype=" . urlencode($callType));
+    $queryParams = [];
+    if (!empty($campaignName)) {
+        $queryParams['campaignname'] = $campaignName;
+    }
+    if (!empty($agentName)) {
+        $queryParams['agentname'] = $agentName;
+    }
+    if (!empty($callType)) {
+        $queryParams['calltype'] = $callType;
+    }
+    $queryString = http_build_query($queryParams);
+    curl_setopt($ch, CURLOPT_URL, "http://localhost:4000/mysql/filter?" . $queryString);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
     $response = curl_exec($ch);
     if (curl_errno($ch)) {
@@ -177,14 +188,31 @@ public function filter() {
     $campaignName = $this->request->getVar('campaign_name');
     $agentName = $this->request->getVar('agent_name');
     $callType = $this->request->getVar('call_type');
-    $result = $this->filter_report($campaignName, $agentName, $callType);
+    $currentPage = $this->request->getVar('page') ? (int)$this->request->getVar('page') : 1;
+    $perPage = 5; // You can also make this configurable
+
+    $result = $this->filter_report($campaignName, $agentName, $callType, $currentPage, $perPage);
     if (isset($result['error'])) {
         return view('report_sql', ['error' => $result['error']]);
     }
-     echo view('inc/header');
-     echo view('report_sql', ['users' => $result]);
-     echo view('inc/footer');
+
+    // Prepare data for view
+    $reportUsers = $this->filter_report($campaignName, $agentName, $callType, $currentPage, $perPage);
+    $total = count($reportUsers);
+
+    // Initialize the data array
+    $data = [];
+    $data['users'] = $reportUsers; // This will be an empty array if no users are found
+    $data['pager'] = [
+        'current' => $currentPage,
+        'total' => ceil($total / $perPage),
+    ];
+
+    echo view('inc/header');
+    echo view('report_sql', $data);
+    echo view('inc/footer');
 }
+
 //*summary report
 public function sqlSummary_Report()
 {

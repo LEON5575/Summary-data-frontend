@@ -10,23 +10,20 @@ class Elastic extends BaseController
     public function index()
     {
         $reportUsers = $this->elasticSummary();
-        if (empty($reportUsers)) {
-            $data['users'] = [];
-            $data['pager'] = null; 
-        } else {
-            $currentPage = $this->request->getVar('page') ? (int)$this->request->getVar('page') : 1;
-            $perPage = 10;
-            $total = count($reportUsers);
-            $offset = ($currentPage - 1) * $perPage;
-            $data['users'] = array_slice($reportUsers, $offset, $perPage);
-            $data['pager'] = [
-                'current' => $currentPage,
-                'total' => ceil($total / $perPage),
-            ];
-        }
-        echo view('inc/header');
-        echo view('report_elastic', $data);
-        echo view('inc/footer');
+        $pager = \Config\Services::pager();
+        $page = $this->request->getVar('page') ? (int)$this->request->getVar('page') : 1;
+        $perPage = 5;
+        $total = count($reportUsers);
+ 
+        $pagedData = array_slice($reportUsers, ($page - 1) * $perPage, $perPage);
+        $data = [
+          'page' => "report_elastic",
+          'data' => $pagedData,
+          'pager' => $pager->makeLinks($page, $perPage, $total)
+        ];
+     echo view('inc/header');
+     echo view('report_elastic', $data);
+     echo view('inc/footer');
     }
     public function elasticSummary()
     {
@@ -79,9 +76,8 @@ class Elastic extends BaseController
         $sheet->setCellValue('Q1', 'Dispose Time');
 
         $row = 2;
-         foreach ($users as $source){
-            $user = $source['_source'];
-            $sheet->setCellValue('A'.$row, sort($user['datetime']));
+         foreach ($users as $user){
+            $sheet->setCellValue('A'.$row, $user['datetime']);
             $sheet->setCellValue('B'.$row, $user['calltype']);
             $sheet->setCellValue('C'.$row, $user['disposetype']);
             $sheet->setCellValue('D'.$row, $user['duration']);
@@ -206,4 +202,45 @@ foreach ($users as $user) {
         curl_close($ch);
         return $data;
     }
+
+   //filter sahil code
+    public function filterElastic() {
+        $campaignName = $this->request->getVar('campaign_name');
+        $agentName = $this->request->getVar('agent_name');
+        $callType = $this->request->getVar('call_type');
+        $currentPage = $this->request->getVar('page') ? (int)$this->request->getVar('page'  ) : 1;
+        $perPage = 5; 
+        $ch = curl_init();
+        $data = [];
+        !empty($agentName) ? $data['agentname'] = $agentName : null;
+        !empty($campaignName) ? $data['campaignname'] = $campaignName : null;
+        !empty($callType) ? $data['calltype'] = $callType : null;
+        
+        // Set cURL options
+        curl_setopt($ch, CURLOPT_URL, "http://localhost:4000/elastic/filter");
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true); 
+        curl_setopt($ch, CURLOPT_POST, true);
+        curl_setopt($ch, CURLOPT_HTTPHEADER, [
+            'Content-Type: application/json',
+            'Accept: application/json' 
+        ]);
+        curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($data)); 
+        $response = curl_exec($ch);
+        $response = json_decode($response, true);
+        $pager = \Config\Services::pager();
+       $page = $this->request->getVar('page') ? (int)$this->request->getVar('page') : 1;
+       $perPage = 5;
+       $total = count($response);
+
+       $pagedData = array_slice($response, ($page - 1) * $perPage, $perPage);
+       $data = [
+         'page' => "report_mongo",
+         'data' => $pagedData,
+         'pager' => $pager->makeLinks($page, $perPage, $total)
+       ];
+    echo view('inc/header');
+    echo view('report_elastic', $data);
+    echo view('inc/footer');
+}
+
 }

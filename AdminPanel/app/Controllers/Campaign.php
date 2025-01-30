@@ -16,7 +16,6 @@ class Campaign extends BaseController
     public function index()
     {
         $supervisor = $this->request->getGet('filterType1');
-       
         $data = [];
         $data['allUsers'] = $this->campaignModel->find();
         if ($supervisor) {

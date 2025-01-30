@@ -1,6 +1,8 @@
 {
     "cSpell.words": [
         "agentname",
+        "autodrop",
+        "autofail",
         "bootstrapcdn",
         "calltime",
         "calltype",
@@ -10,11 +12,14 @@
         "disposetime",
         "disposetype",
         "holdtime",
+        "HTTPHEADER",
         "leadsetid",
         "mutetime",
+        "POSTFIELDS",
         "processname",
         "RETURNTRANSFER",
         "ringingtime",
+        "sahil",
         "spreadsheetml",
         "transfertime"
     ]

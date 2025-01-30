@@ -91,15 +91,15 @@
                 <div class="modal-body">
                     <div class="mb-3">
                         <label for="campaign_name">Campaign Name</label>
-                        <input type="text" class="form-control" name="campaign_name" required autocomplete="off">
+                        <input type="text" class="form-control" name="campaign_name"  autocomplete="off">
                     </div>
                     <div class="mb-3">
                         <label for="agent_name">Agent Name</label>
-                        <input type="text" class="form-control" name="agent_name" required autocomplete="off">
+                        <input type="text" class="form-control" name="agent_name"  autocomplete="off">
                     </div>
                     <div class="mb-3">
                         <label for="call_type">Call Type</label>
-                        <select name="call_type" class="form-select" aria-label="Default select example" required>
+                        <select name="call_type" class="form-select" aria-label="Default select example" >
                             <option selected disabled>Select call type</option>
                             <option value="AutoFail">AutoFail</option>
                             <option value="AutoDrop">AutoDrop</option>

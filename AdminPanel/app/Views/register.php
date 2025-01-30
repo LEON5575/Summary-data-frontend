@@ -1,6 +1,6 @@
 <!-- <h1>Hello I am Register Page</h1> -->
-<div class="container d-flex justify-content-center align-items-center pb-2rem" style="height: 100vh;">
-        <div class="card" style="width: 300px;">
+<div class="container d-flex justify-content-center align-items-center pb-2rem" style="height: 100%;">
+        <div class="card" style="margin: 3rem 0rem 0rem 0rem;">
             <div class="card-body">
                 <h1 class="card-title text-center">Register Here</h1>
                 <form method="post" action="<?php echo base_url('/register')?>">

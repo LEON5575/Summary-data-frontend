@@ -39,6 +39,7 @@ class Validation extends Controller {
             return redirect()->to('/register');
 
         }
+        
             $data = [
             'name' => $name,
             'email' => $email,
@@ -56,6 +57,7 @@ class Validation extends Controller {
     
     public function do_login() {
         $user = new ValidateModel();
+       //
         $email = $this->request->getPost('email');
         $password = $this->request->getPost('password');
         if (empty($email) || empty($password)) {
@@ -77,13 +79,8 @@ class Validation extends Controller {
     }
 }
 public function logOut() {
-    // Destroy the session to log the user out
     $this->session->destroy();
-
-    // Set a flashdata message to inform the user they have been logged out
     $this->session->setFlashdata('message', 'You have been logged out successfully.');
-
-    // Redirect the user to the login page or home page
     return redirect()->to('/login');
 }
     // public function dashboard(){

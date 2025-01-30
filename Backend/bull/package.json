@@ -1,0 +1,15 @@
+{
+  "name": "bull",
+  "version": "1.0.0",
+  "main": "bull.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bull": "^4.16.5",
+    "mongodb": "^6.12.0"
+  }
+}

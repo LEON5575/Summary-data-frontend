@@ -109,6 +109,7 @@ $(document).on('click', '#filterBtn', function(e) {
   });
 });
 </script>
+<!-- //nave -->
 
 <div class="container-xl">
     <div class="table-responsive d-flex flex-column">

@@ -15,10 +15,10 @@
                     <div class="col-sm-6">
                         <h2 style="color: black; background-color: whitesmoke;"><b>SQL Hourly Report</b></h2>
                     </div>
-                    <div class="col-sm-6 text-right">
-                        <a href="#filterModal" data-toggle="modal">
+                    <div class="text-right">
+                        <!-- <a href="#filterModal" data-toggle="modal">
                             <button type="button" class="btn btn-dark">Filter</button>
-                        </a>
+                        </a> -->
                         <a href="<?php echo site_url('spreadsheet_1') ?>" class="btn btn-warning" role="button">Download Summary Report</a>
                     </div>
                 </div>

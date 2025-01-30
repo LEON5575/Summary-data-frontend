@@ -26,6 +26,7 @@ $routes->get('register', 'Validation::register');
 $routes->post('register','Validation::do_register');
 $routes->post('dashboard','Validation::dashboard');
 $routes->post('dashboard','Validation::dashboard');
+$routes->get('logOut','Validation::logOut');
 
 //!campaign
 $routes->get('/campaign', 'Campaign::index');
@@ -53,7 +54,7 @@ $routes->get('/apiSummary', 'Elastic::apiSummary'); // Route for API summary
 $routes->get('/spreadsheet_elastic', 'Elastic::spreadsheet');
 $routes->get('/spreadsheet_elastic_1','Elastic::summaryReport');
 $routes->get('/summary_data_elastic','Elastic::view');
-$routes->get('/filter','Elastic::filter');
+$routes->get('/filterElastic','Elastic::filterElastic');
 
 //! mongo reports
 $routes->get('/report_mongo', 'Mongo::index'); // Route for SQL report
@@ -61,5 +62,5 @@ $routes->get('/apiSummary', 'Mongo::apiSummary'); // Route for API summary
 $routes->get('/spreadsheet_mongo', 'Mongo::spreadsheet');
 $routes->get('/spreadsheet_mongo_1','Mongo::summaryReport');
 $routes->get('/summary_data_mongo','Mongo::view');
-$routes->get('/filter','Mongo::filter');
+$routes->get('/filterMongo','Mongo::filterMongo');
 

@@ -6,9 +6,6 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta name="Description" content="CodeIgniter 4 CRUD tutorial"/>
 <title>SlashRTC</title>
-
-
-   
     <!-- CSS files -->
     <link rel="stylesheet" href="<?php echo base_url('/public/assets/css/googleapis1.css'); ?>">
     <link rel="stylesheet" href="<?php echo base_url('/public/assets/css/googleapis2.css'); ?>">
@@ -17,7 +14,7 @@
     <link rel="stylesheet" href="<?php echo base_url('/public/assets/css/bootstrap-grid.min.css'); ?>">
     <link rel="stylesheet" href="<?php echo base_url('/public/assets/css/bootstrap.css'); ?>">
     <link rel="stylesheet" href="<?php echo base_url('/public/assets/css/bootstrap.css'); ?>">
-    <link rel="stylesheet" href="<?php echo base_url('/public/assets/css/style.css'); ?>">
+    <link rel="stylesheet" href="<?php echo base_url('/public/assets/chatApp.css'); ?>">
     <link rel="stylesheet" href="<?php echo base_url('/public/assets/css/dataTables.dataTables.min.css')?>">
     <link rel="stylesheet" href="<?php echo base_url('/public/assets/css/header.css')?>">
 
@@ -51,15 +48,15 @@
                     <li class="nav-item">
                         <a class="nav-link" href="<?php echo site_url('login'); ?>">Login</a>
                     </li>
-                    <!-- <li class="nav-item">
+                    <li class="nav-item">
                         <a class="nav-link" href="<?php echo site_url('logOut'); ?>">Log Out</a>
-                    </li> -->
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="<?php echo site_url('campaign'); ?>">Campaign</a>
                     </li>
-                    <!-- <li class="nav-item">
+                    <li class="nav-item">
                         <a class="nav-link" href="<?php echo site_url('chat'); ?>">Chat</a>
-                    </li> -->
+                    </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="databaseDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
                         Select Report Type
@@ -70,9 +67,17 @@
                         <li><a class="dropdown-item" href="<?php echo site_url('report_elastic'); ?>">Elasticsearch</a></li>
                     </ul>
                 </li>
-
-               
                 </ul>
+                <div class="user-profile">
+            <?php if (session()->get('user')): ?>
+                <span style="color: white;"><?php echo session()->get('user')['name']; ?></span>
+                <div class="avatar"><?php echo strtoupper(substr(session()->get('user')['name'], 0, 1)); ?></div>
+                <!-- <a href="<?php echo base_url('login/logout'); ?>" class="logout-button">Logout</a> -->
+            <?php else: ?>
+                <span style="color: white;">Guest</span>
+                <div class="avatar" style="color: black;">G</div>
+            <?php endif; ?>
+        </div>
             </div>
     </nav>
     <header class="navbar">
